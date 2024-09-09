@@ -1,11 +1,11 @@
 function OrderSummary() {
-  const order = 'You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!'
+  const order: string = 'You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!'
 
   return (
-    <>
-      <h1>Order Summary</h1>
-      <p>{order}</p>
-    </>
+    <div className="card__order-summary">
+      <h1 className="card__title">Order Summary</h1>
+      <p className="card__order-description">{order}</p>
+    </div>
   )
 }
 

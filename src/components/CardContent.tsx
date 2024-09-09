@@ -1,14 +1,14 @@
 import OrderSummary from "./OrderSummary"
-import PaymentPlan from "./PaymentPlan"
-import NextAction from "./NextAction"
+import PaymentPlan from "./Plan"
+import Buttons from "./Buttons"
 
 function CardContent() {
   return (
-    <>
+    <div className="card__content">
       <OrderSummary></OrderSummary>
       <PaymentPlan></PaymentPlan>
-      <NextAction></NextAction>
-    </>
+      <Buttons></Buttons>
+    </div>
   )
 }
 

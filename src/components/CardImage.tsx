@@ -1,6 +1,6 @@
 function CardImage() {
   return (
-    <img src="src\assets\illustration-hero.svg" alt="Illustration Hero" />
+    <img className="card__image" src="src\assets\illustration-hero.svg" alt="Illustration Hero" />
   )
 }
 

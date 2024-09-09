@@ -3,10 +3,10 @@ import CardContent from "./CardContent"
 
 function Card() {
   return (
-    <>
+    <article className="card">
       <CardImage></CardImage>
       <CardContent></CardContent>
-    </>
+    </article>
   )
 }
 
